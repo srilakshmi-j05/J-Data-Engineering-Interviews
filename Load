@@ -1,1 +1,8 @@
 
+once we do the transform, we need to load to hdfs.
+
+we can load the file to hdfs using below command.
+
+hdfs dfs -put factstore.
+
+this will load to the hdfs
