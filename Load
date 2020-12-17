@@ -6,3 +6,18 @@ we can load the file to hdfs using below command.
 hdfs dfs -put factstore.
 
 this will load to the hdfs
+
+After the file is loaded to hdfs, we need to create a hive table from hdfs. To do this, we need to login Hue.
+
+setup your own database under which factstore to create. After creating the database, add table in that database and it will ask the file to choose from hdfs.
+name the tablename and provide the delimiter with which hdfs file has. you can also specify the data type of each attribute the table hold.
+
+Create the table from the hdfs.
+
+Beside creating the fact from hdfs. Create Dates, Stores, products dimension.
+
+I have also created the dimensions in SQL server and loaded the given data and exported the data such that it is also go to the hdfs and from there Hive tables are created as specified above.
+
+
+
+
