@@ -1,1 +1,9 @@
 
+Source fie is available at Github in the location below
+
+https://github.com/JTC-DataEngineering/Interviews/tree/master/DataEngg.
+
+Consider the below files from the path given.
+
+1. Fact raw data (name 2009.Zip) this file has multiple folder inside based on the month and in each month folder there are several folders and inside there are zip file with the fact data
+2. DDL-DML schema for the dimensions.
