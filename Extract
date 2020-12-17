@@ -1,1 +1,4 @@
 
+As specified in the source file, consider to extract the raw data for further processing. Extract the data.
+
+without specifying the destination it will be extracted in download folder. We can specify the destination path to where it need to download.
