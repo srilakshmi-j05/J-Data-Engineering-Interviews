@@ -1,1 +1,13 @@
 
+we can upload the downloaded zip files to the server where the hdfs host. use the ftp for uploading the files.
+
+After the complete rawa data uploaded-
+
+1. use gunzip -r to recurisevly  to unzip the raw data.
+
+2. merge the files using cat to have 1 file for loading.
+
+3. transform the tab delimited final fact to pipe delimited as requested using the below command.
+
+$ sed 's/\t\+/|/g' Factstore_test > Factstore
+
