@@ -1,1 +1,18 @@
+Run the below code for the reports.
 
+
+
+#2: Query average number of stocks on hand by store.
+
+
+select storetype,cast( avg(onhandquantity) as int) AVG_ONHANDQTY_STORE from factstore a join dimstores b 
+on a.storeid=b.storeid
+group by storetype
+
+
+#1: Query average number of stocks on hand by category.
+
+
+select field_4,cast( avg(onhandquantity) as int) AVG_ONHANDQTY_STORE from factstore a join dimproducts_fina2l b 
+on a.productid=b.field_1
+group by field_4
